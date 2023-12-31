@@ -38,24 +38,24 @@ go page up: edit.page_up()
 go page down: edit.page_down()
 
 # Selecting
-select all: edit.select_all()
-select line: edit.select_line()
-select line start: user.select_line_start()
-select line end: user.select_line_end()
+see all: edit.select_all()
+see line: edit.select_line()
+see line start: user.select_line_start()
+see line end: user.select_line_end()
 
-select left: edit.extend_left()
-select right: edit.extend_right()
-select up: edit.extend_line_up()
-select down: edit.extend_line_down()
+see left: edit.extend_left()
+see right: edit.extend_right()
+see up: edit.extend_line_up()
+see down: edit.extend_line_down()
 
-select word: edit.select_word()
-select word left: edit.extend_word_left()
-select word right: edit.extend_word_right()
+see word: edit.select_word()
+see word left: edit.extend_word_left()
+see word right: edit.extend_word_right()
 
-select way left: edit.extend_line_start()
-select way right: edit.extend_line_end()
-select way up: edit.extend_file_start()
-select way down: edit.extend_file_end()
+see way left: edit.extend_line_start()
+see way right: edit.extend_line_end()
+see way up: edit.extend_file_start()
+see way down: edit.extend_file_end()
 
 # Indentation
 indent [more]: edit.indent_more()
@@ -185,3 +185,5 @@ redo that: edit.redo()
 # Save
 file save: edit.save()
 file save all: edit.save_all()
+
+
